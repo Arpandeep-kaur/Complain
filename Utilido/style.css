@@ -1,0 +1,56 @@
+body{
+    background: url('p1.jpg');
+    background-repeat:no-repeat;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    padding:220px;
+}
+.heading1
+{
+    
+    position:absolute;
+    bottom:8%;
+    font-size:190px;
+    line-height:160px;
+    margin-left:-10px;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background:url(back.png);
+    -webkit-background-clip:text;
+    background-position:0 0;
+    animation:back 20s linear infinite;
+
+}
+@keyframes back {
+    100%{
+        background-position:2000px 0;
+    }
+}
+.heading{
+    position:absolute;
+    bottom:5%;
+    right:20px;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background:url(back.png);
+    -webkit-background-clip:text;
+    background-position:0 0;
+    animation:back 20s linear infinite;
+}
+a:active{
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background:url(back.png);
+    -webkit-background-clip:text;
+    background-position:0 0;
+    animation:back 20s linear infinite;
+}
+a:visited{
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background:url(back.png);
+    -webkit-background-clip:text;
+    background-position:0 0;
+    animation:back 20s linear infinite;
+}
